@@ -1,6 +1,6 @@
 # Squirel-Wubi86
 
-```
+
 # 鼠须管86五笔配置方案
 
 ### [rime官网](https://rime.im/)
@@ -59,5 +59,5 @@
 [鼠须管输入法 傻瓜版配置 - 基于 rime_pro 增强包](https://segmentfault.com/a/1190000005754706)
 
 [极点86五笔](https://github.com/KyleBing/rime-wubi86-jidian)
-```
+
 
