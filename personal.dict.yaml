@@ -1,0 +1,32 @@
+---
+name: personal
+version: "1.0"
+sort: original
+import_tables: #此处是添加用户自定义词库的地方
+  - jishuang6                   # 极爽6.0
+  - wubi86
+  - personal_extra_words       # 补充词
+  - personal_extra_brand         # 品牌名
+  - personal_extra_celebrity        # 名人
+  - personal_extra_toponymy      # 地名
+  - personal_extra_pro           # 专业名词
+  - personal_extra_media         # 影音名
+  - personal_extra_game          # 游戏相关
+  
+ 
+columns: #码表格式
+  - text #文字
+  - code #输入码
+  - weight #权重
+  - stem
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
